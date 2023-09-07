@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(5, 36, 63);
+ overflow: hidden;
+}
+*{
+   color:  white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.one{
+    background-color: rgb(70, 53, 90);
+    width: 400px;
+    border-radius: 35px; 
+    
+}
+.p1{
+    height: 40%;
+    background-image: url("post1.jpg");
+    background-size: contain;
+    border-top-left-radius:  35px;
+    border-top-right-radius: 35px; 
+}
+
+.two{
+    background-color: rgb(70, 53, 90);
+    width: 400px;
+    border-radius: 35px;
+}
+.p2{
+    
+    height: 40%;
+    background-image: url("post2.jpg");
+    background-size: contain;
+    border-top-left-radius:  35px;
+    border-top-right-radius: 35px; 
+}
+.three{
+    background-color: rgb(70, 53, 90);
+    width: 400px;
+    border-radius: 35px;
+}
+.p3{
+    
+    height: 40%;
+    background-image: url("post3.jpg");
+    background-size: contain;
+    border-top-left-radius:  35px;
+    border-top-right-radius: 35px;  
+}
+.charts{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+button{
+    background-color: blueviolet;
+    height:40px;
+    width: fit-content;
+    border-radius:25px; 
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+#t1{
+    margin-left:20px;
+    margin-right: 10px;
+}
+
+.prof1{
+    height: 10%;
+    background-image: url("profile1.jpg");
+    width: 13%;
+    margin-left: 20px;
+    background-size: contain;
+    border-radius: 25px;
+}
+.prof2{
+    height: 10%;
+    background-image: url("profile2.jpg");
+    width: 13%;
+    margin-left: 20px;
+    background-size: contain;
+    border-radius: 25px;
+}.prof3{
+    height: 10%;
+    background-image: url("profile3.jpg");
+    width: 13%;
+    margin-left: 20px;
+    background-size: contain;
+    border-radius: 25px;
+}
+#t2{
+position: relative;
+left:120px;
+top:-60px;
+}
+.view{
+    position: relative;
+    left: 650px;
+    top:70px;
+
+}

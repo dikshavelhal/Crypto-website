@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(5, 36, 63);
+}
+*{
+   color:  white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+font-weight: bolder;
+}
+button{
+    font-weight: bold;
+    background-color: blueviolet;
+    height:50px;
+    border-color: none;
+    width: 180px;
+    border-radius:25px; 
+}
+.nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+  
+}
+.home{
+    position: relative;
+  top:17px;
+  right: 100px;
+}
+.cart{
+    position: relative;
+    top: 5px;
+}
+
+.main{
+   
+  font-size: 70px;
+  line-height: 70px;
+  position: relative;
+  left:-80px;
+}
+.main2{
+   
+top:-130px;
+   
+    position: relative;
+    left:50px;
+  }
+  .end{
+    position: relative;
+    left: 80px;
+    top:-150px;
+  }
+  
